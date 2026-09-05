@@ -1,36 +1,115 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Portfolio Aditya</title>
-        <style>
-            button {
-                font-family: Arial, Helvetica, sans-serif;
-                font-size: 64px;
-                padding : 30px 80px;
-                border: none;
-                color: white;
-                background-color: royalblue;
-                transition: opacity 0.5s , transform 0.1s;
-                border-radius: 100px;
-                margin : 40px;
-                box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.3);
-            }
-            button:hover {
-                cursor: pointer;
-                opacity: 0.8;
-            }
-            button:active {
-                opacity: 0.6;
-                transform: translate(4px,4px);
-            }
+<html lang="en">
 
-        </style>
-    </head>
-    <body>
-        <div></div>
-        <button onclick="window.open('https://leetcode.com/u/Aditya_Singh6/','_blank')">leetcode</button>
-        <br>
-        <button onclick="window.open(href='https://www.linkedin.com/in/aditya-singh-393304377?utm_source=share_via&utm_content=profile&utm_medium=member_android','_blank')">linkedin</button>
-        <br>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Six | Portfolio</title>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <!-- Top navigation -->
+    <header>
+        <nav>
+            <div class="logo">
+                Aditya
+            </div>
+
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <section id="home">
+            <h1>Hi, I'm Aditya</h1>
+
+            <p>
+                CSE Student & Aspiring Software Engineer
+            </p>
+
+            <a href="#projects">View My Projects</a>
+        </section>
+
+
+        <section id="about">
+            <h2>About Me</h2>
+
+            <p>
+                I'm learning software development, DSA, and web development.
+                This portfolio showcases my work and progress.
+            </p>
+        </section>
+
+
+
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <article>
+                <h3>Railway Reservation System</h3>
+                <p>A Railway reservation system made using file handling in C</p>
+                <a href="https://github.com/AdityaEmperor/Railway-Reservation-System.git" target="_blank">View Project</a>
+            </article>
+
+            <article>
+                <h3>Morse Master</h3>
+                <p>A morse code communication device</p>
+                <a href="https://github.com/AdityaEmperor/Morse-Master.git" target="_blank">View Project</a>
+            </article>
+
+            <article>
+                <h3>Sudoku Solver</h3>
+                <p>Sudoku Solver made using C++ and SFML (in progress)</p>
+                <a href="https://github.com/AdityaEmperor/Sudoku-engine.git" target="_blank">View Project</a>
+            </article>
+        </section>
+
+
+        <section id="skills">
+            <h2>Skills</h2>
+
+            <ul>
+                <li>C++</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>DSA</li>
+                <li>Git & GitHub</li>
+            </ul>
+        </section>
+
+
+        <!-- Contact section -->
+        <section id="contact">
+            <h2>Contact</h2>
+
+            <p>Email: adityasingh0620620@gmail.com</p>
+
+            <a href="https://github.com/AdityaEmperor" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/aditya-singh-393304377" target="_blank">LinkedIn</a>
+            <a href="https://leetcode.com/u/Aditya_Singh6/" target="_blank">Leetcode</a>
+        </section>
+
+    </main>
+
+
+
+    <footer>
+        <p>© 2026 Six. All rights reserved.</p>
+    </footer>
+
+</body>
+
 </html>
